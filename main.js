@@ -5,7 +5,7 @@ let imagebtn = document.querySelector("#image");
 let image = document.querySelector("#image img");
 let imageinput = document.querySelector("#image input");
 
-const Api_Url = "http://localhost:5000/generate";
+const Api_Url = "https://chatbot-backend-t2bp.onrender.com/generate";
 
 let user = {
     message: null,
